@@ -28,5 +28,6 @@ public class FormattingExercise {
 
         // Step 5: Print the same combined sentence using printf
         // Example output: Name: Alice, Age: 25, GPA: 3.68
+        System.out.printf("Name: %s, Age: %d, GPA: %.2f", name, age, gpa);
     }
 }
