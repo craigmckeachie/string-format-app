@@ -23,6 +23,8 @@ public class FormattingExercise {
 
         // Step 4: Combine all three into one formatted sentence using String.format
         // Example output: Name: Alice, Age: 25, GPA: 3.68
+        String formattedSentence = String.format("Name: %s, Age: %d, GPA: %.2f", name, age, gpa);
+        System.out.println(formattedSentence);
 
         // Step 5: Print the same combined sentence using printf
         // Example output: Name: Alice, Age: 25, GPA: 3.68
